@@ -59,6 +59,11 @@ class Admin extends Core\Singleton {
 	private $filters = null;
 
 	/**
+	 *	@var Ajax_handler
+	 */
+	private $ajax_handler = null;
+
+	/**
 	 *	@inheritdoc
 	 */
 	protected function __construct() {

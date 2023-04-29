@@ -59,6 +59,11 @@ class Asset {
 	private $l10n = false;
 
 	/**
+	 *	@var bool
+	 */
+	private $localized = false;
+
+	/**
 	 *	@var string css|js
 	 */
 	private $registered = false;
